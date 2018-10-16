@@ -1,0 +1,8 @@
+mysql:
+  image: mysql
+  container_name: mysql
+  environment:
+    - MYSQL_ROOT_PASSWORD=password
+    - MYSQL_DATABASE=
+    - MYSQL_USER=root
+    - MYSQL_PASSWORD=
